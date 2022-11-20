@@ -1,0 +1,2447 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@media (max-width: 1164px) {
+  body {
+    display: flex;
+  }
+}
+@media (max-width: 1000px) {
+  .conteiner {
+    padding: 0px 30px;
+  }
+}
+header {
+  background: rgb(69, 72, 77);
+  background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgb(87, 184, 255) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#45484d", endColorstr="#000000",GradientType=1 );
+  width: 100%;
+  height: 1064px;
+}
+
+body {
+  font-family: "Orbitron";
+}
+
+.conteiner {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  align-items: center;
+  margin-bottom: 240px;
+}
+
+.header__menu ul {
+  display: flex;
+}
+.header__menu ul a {
+  color: #fff;
+}
+.header__menu li {
+  padding-right: 40px;
+  font-size: 16px;
+}
+
+.header-attribute__content {
+  display: flex;
+}
+
+.header-attribute__btn button {
+  padding: 16px 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+  background-color: rgb(87, 184, 255);
+  border: 2px solid #fff;
+}
+
+.header-attribute__shop {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  position: relative;
+}
+.header-attribute__shop:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../img/Frame.png") 0px 0px no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.header__content {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sport {
+  font-size: 16px;
+  line-height: 16px;
+  left: 31.5px;
+  color: rgb(87, 184, 255);
+  position: relative;
+}
+
+.header__fire {
+  position: absolute;
+  top: -10px;
+  left: -40px;
+}
+
+.header__title {
+  font-size: 72px;
+  line-height: 86px;
+  max-width: 657px;
+  margin-bottom: 50px;
+}
+
+.header__text {
+  color: rgb(153, 153, 153);
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.header__btn {
+  display: flex;
+  justify-content: space-between;
+  width: 446px;
+}
+.header__btn .header__btn-left {
+  padding: 21px 34px;
+  background-color: rgb(87, 184, 255);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__btn .header__btn-left a {
+  color: #fff;
+}
+.header__btn .header__btn-right {
+  padding: 21px 34px;
+  background-color: #000;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__btn .header__btn-right a {
+  color: #fff;
+}
+
+.header__block-right {
+  padding-left: 50px;
+  position: relative;
+}
+.header__block-right .header__image-mesenger {
+  position: absolute;
+  right: 0px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    display: flex;
+  }
+  .conteiner {
+    padding: 0px 30px;
+  }
+  .header__logo img {
+    width: 280px;
+    height: 80px;
+  }
+  .header__menu li {
+    font-size: 19px;
+  }
+  .header-attribute__shop img {
+    width: 44px;
+    height: 44px;
+  }
+  .header-attribute__btn button {
+    font-size: 22px;
+  }
+  .sport {
+    font-size: 18px;
+  }
+  .header__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .header__btn-left a {
+    font-size: 23px;
+  }
+  .header__btn-right a {
+    font-size: 23px;
+  }
+  .header__btn {
+    display: flex;
+    justify-content: space-between;
+    width: 496px;
+  }
+  .header__block-right {
+    position: relative;
+  }
+}
+@media (max-width: 910px) {
+  .header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__logo img {
+    width: 320px;
+    height: 90px;
+    margin-right: 60px;
+  }
+  .header-attribute__shop img {
+    width: 52px;
+    height: 52px;
+  }
+  .header-attribute__btn button {
+    font-size: 32px;
+  }
+  .sport {
+    font-size: 21px;
+    color: rgb(31, 162, 255);
+  }
+  .header__title {
+    margin-left: 60px;
+  }
+  .header__block-left {
+    text-align: center;
+  }
+  .header__content {
+    width: 800px;
+  }
+  .header__text {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .header__btn-left a {
+    font-size: 28px;
+  }
+  .header__btn-left {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+  }
+  .header__btn-right a {
+    font-size: 28px;
+  }
+  .header__btn-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+  }
+  .header__btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .header__image img {
+    display: none;
+  }
+  .header__image-mesenger {
+    display: none;
+  }
+  .header__fire {
+    position: absolute;
+    top: -10px;
+    left: 210px;
+  }
+}
+@media (max-width: 700px) {
+  .header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__logo img {
+    width: 350px;
+    height: 105px;
+    margin-right: 60px;
+  }
+  .header-attribute__shop img {
+    width: 56px;
+    height: 56px;
+  }
+  .header-attribute__btn button {
+    font-size: 34.7px;
+  }
+  .sport {
+    font-size: 21px;
+    color: rgb(31, 162, 255);
+  }
+  .header__title {
+    font-size: 73px;
+    margin-left: 60px;
+  }
+  .header__block-left {
+    text-align: center;
+  }
+  .header__content {
+    width: 800px;
+  }
+  .header__text {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .header__btn-left a {
+    font-size: 30px;
+  }
+  .header__btn-left {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+  }
+  .header__btn-right a {
+    font-size: 30px;
+  }
+  .header__btn-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+  }
+  .header__btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .header__image img {
+    display: none;
+  }
+  .header__image-mesenger {
+    display: none;
+  }
+  .header__fire {
+    position: absolute;
+    top: -10px;
+    left: 210px;
+  }
+}
+@media (max-width: 560px) {
+  .header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__logo img {
+    width: 360px;
+    height: 105px;
+    margin-right: 60px;
+  }
+  .header-attribute__shop img {
+    width: 58px;
+    height: 58px;
+  }
+  .header-attribute__btn button {
+    font-size: 35.7px;
+  }
+  .sport {
+    font-size: 21px;
+    color: rgb(31, 162, 255);
+  }
+  .header__title {
+    font-size: 73px;
+    margin-left: 60px;
+  }
+  .header__block-left {
+    text-align: center;
+  }
+  .header__content {
+    width: 800px;
+  }
+  .header__text {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .header__btn-left a {
+    font-size: 32px;
+  }
+  .header__btn-left {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+  }
+  .header__btn-right a {
+    font-size: 32px;
+  }
+  .header__btn-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+  }
+  .header__btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .header__image img {
+    display: none;
+  }
+  .header__image-mesenger {
+    display: none;
+  }
+  .header__fire {
+    position: absolute;
+    top: -10px;
+    left: 210px;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__logo img {
+    width: 380px;
+    height: 110px;
+    margin-right: 60px;
+  }
+  .header-attribute__shop img {
+    width: 60px;
+    height: 60px;
+  }
+  .header-attribute__btn button {
+    font-size: 37.7px;
+  }
+  .sport {
+    font-size: 22px;
+    color: rgb(31, 162, 255);
+  }
+  .header__title {
+    font-size: 73px;
+    margin-left: 60px;
+  }
+  .header__block-left {
+    text-align: center;
+  }
+  .header__content {
+    width: 800px;
+  }
+  .header__text {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .header__btn-left a {
+    font-size: 34px;
+  }
+  .header__btn-left {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+  }
+  .header__btn-right a {
+    font-size: 34px;
+  }
+  .header__btn-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+  }
+  .header__btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .header__image img {
+    display: none;
+  }
+  .header__image-mesenger {
+    display: none;
+  }
+  .header__fire {
+    position: absolute;
+    top: -10px;
+    left: 210px;
+  }
+}
+@media (max-width: 340px) {
+  .header {
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__logo img {
+    width: 400px;
+    height: 115px;
+    margin-right: 60px;
+  }
+  .header-attribute__shop img {
+    width: 64px;
+    height: 64px;
+  }
+  .header-attribute__btn button {
+    font-size: 39.7px;
+    line-height: 35px;
+  }
+  .header__sport {
+    font-size: 23px;
+    color: rgb(31, 162, 255);
+  }
+  .header__title {
+    font-size: 80px;
+    margin-left: 60px;
+  }
+  .header__block-left {
+    text-align: center;
+  }
+  .header__content {
+    width: 800px;
+  }
+  .header__text {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .header__btn-left a {
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+  .header__btn-left {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+  }
+  .header__btn-right a {
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+  .header__btn-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+  }
+  .header__btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .header__image img {
+    display: none;
+  }
+  .header__image-mesenger {
+    display: none;
+  }
+  .header__fire {
+    position: absolute;
+    top: -10px;
+    left: 190px;
+  }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 6000px;
+}
+
+.sponsors {
+  background-color: rgb(253, 208, 74);
+  width: 100%;
+  height: 542px;
+}
+
+.sponsors__top-content {
+  padding: 128px 0px 50px 0px;
+}
+
+.sponsors__title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  line-height: 58px;
+  color: #fff;
+  margin-bottom: 42px;
+}
+
+.sponsors__text {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 26px;
+  color: #555555;
+}
+.sponsors__text p {
+  max-width: 576px;
+  text-align: center;
+}
+
+.sponsors__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.snopsors__info-icon {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+  .sponsors {
+    height: 572px;
+  }
+  .sponsors__title {
+    font-size: 54px;
+    line-height: 64px;
+  }
+  .sponsors__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 910px) {
+  .sponsors__title {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  .sponsors__text {
+    font-size: 21px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .sponsors__title {
+    font-size: 56px;
+    line-height: 63px;
+  }
+  .sponsors__text {
+    font-size: 23px;
+    line-height: 31px;
+  }
+  .snopsors__info-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    margin-right: 10px;
+  }
+  .snopsors__info-icon img {
+    width: 200px;
+    height: 110px;
+  }
+  .sponsors {
+    height: 692px;
+  }
+}
+@media (max-width: 560px) {
+  .sponsors__title {
+    font-size: 60px;
+    line-height: 63px;
+  }
+  .sponsors__text {
+    font-size: 24.5px;
+    line-height: 34px;
+  }
+  .sponsors {
+    height: 1292px;
+  }
+  .sponsors__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .sponsors__content .snopsors__info-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  .sponsors__content .snopsors__info-icon img {
+    width: 390px;
+    height: 130px;
+  }
+}
+@media (max-width: 480px) {
+  .sponsors__title {
+    font-size: 68px;
+    line-height: 64px;
+  }
+  .sponsors__text {
+    font-size: 27.8px;
+    line-height: 36px;
+  }
+  .sponsors {
+    height: 1342px;
+  }
+  .sponsors__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .sponsors__content .snopsors__info-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  .sponsors__content .snopsors__info-icon img {
+    width: 370px;
+    height: 140px;
+  }
+}
+@media (max-width: 450px) {
+  .sponsors__title {
+    font-size: 68px;
+    line-height: 64px;
+  }
+  .sponsors__text {
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: 1.5px;
+  }
+  .sponsors {
+    height: 1342px;
+  }
+  .sponsors__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .sponsors__content .snopsors__info-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  .sponsors__content .snopsors__info-icon img {
+    width: 370px;
+    height: 140px;
+  }
+}
+@media (max-width: 370px) {
+  .sponsors__title {
+    font-size: 72px;
+    line-height: 64px;
+  }
+  .sponsors__text {
+    font-size: 31px;
+    line-height: 39px;
+    letter-spacing: 2px;
+  }
+  .sponsors {
+    height: 1372px;
+  }
+  .sponsors__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .sponsors__content .snopsors__info-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  .sponsors__content .snopsors__info-icon img {
+    width: 390px;
+    height: 140px;
+  }
+}
+@media (max-width: 320px) {
+  .sponsors__title {
+    font-size: 74px;
+    line-height: 68px;
+  }
+  .sponsors__text {
+    font-size: 33px;
+    line-height: 38px;
+    letter-spacing: 2px;
+  }
+  .sponsors {
+    height: 1462px;
+  }
+  .sponsors__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .sponsors__content .snopsors__info-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  .sponsors__content .snopsors__info-icon img {
+    width: 380px;
+    height: 150px;
+  }
+}
+@media (max-width: 340px) {
+  .sponsors {
+    height: 1452px;
+  }
+}
+@media (max-width: 365px) {
+  .sponsors {
+    height: 1422px;
+  }
+}
+.games-shop {
+  width: 100%;
+  height: 1069px;
+  background: url("../img/sel.png") 0px 0px/cover no-repeat;
+}
+
+.games-shop__top-content {
+  padding-top: 132px;
+}
+
+.games-shop__sport {
+  display: flex;
+  justify-content: center;
+}
+.games-shop__sport p {
+  display: inline-block;
+  position: relative;
+}
+.games-shop__sport img {
+  position: absolute;
+  top: 0px;
+  left: 520px;
+}
+
+.games-shop {
+  width: 100%;
+  height: 1069px;
+  background: url("../img/sel.png") 0px 0px/cover no-repeat;
+}
+
+.games-shop__top-content {
+  padding-top: 132px;
+}
+
+.games-shop__sport {
+  display: flex;
+  justify-content: center;
+}
+.games-shop__sport p {
+  display: inline-block;
+  position: relative;
+}
+.games-shop__sport img {
+  position: absolute;
+  top: 0px;
+  left: 520px;
+}
+
+.title {
+  font-size: 62px;
+  line-height: 74px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.text {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(223, 223, 223, 0.8);
+  display: flex;
+  justify-content: center;
+}
+.text p {
+  max-width: 667px;
+}
+
+.games-shop__content {
+  margin-top: 61px;
+}
+
+.games-shop__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.games-shop__column {
+  background-color: rgba(255, 255, 255, 0.15);
+  max-width: 586px;
+  max-height: 212px;
+  border-radius: 20px;
+  padding: 35px 32px 36px 80px;
+  margin-bottom: 32px;
+}
+
+.games-shop__info-title {
+  font-size: 32px;
+  line-height: 42px;
+  color: #fff;
+  position: relative;
+}
+.games-shop__info-title:before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url("../img/almaz.png") 0px 0px no-repeat;
+  position: absolute;
+  top: 0px;
+  left: -60px;
+}
+
+.games-shop__info-text {
+  color: rgba(223, 223, 223, 0.8);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media (max-width: 1025px) {
+  .games-shop {
+    height: 1550px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 478px;
+  }
+}
+@media (max-width: 1000px) {
+  .games-shop {
+    height: 1469px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 480px;
+  }
+  .title {
+    font-size: 64px;
+    line-height: 74px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 212px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 34px;
+    line-height: 44px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .games-shop {
+    height: 1469px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 43px;
+  }
+  .title {
+    font-size: 64px;
+    line-height: 74px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 212px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 34px;
+    line-height: 44px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 997px) {
+  .games-shop {
+    height: 1469px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 475px;
+  }
+}
+@media (max-width: 997px) {
+  .games-shop {
+    height: 1469px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 43px;
+  }
+}
+@media (max-width: 700px) {
+  .games-shop {
+    height: 1469px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 23px;
+  }
+  .title {
+    font-size: 64px;
+    line-height: 74px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 21.8px;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 212px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 34px;
+    line-height: 44px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 560px) {
+  .games-shop {
+    height: 1469px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+    font-size: 23px;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 14px;
+  }
+  .title {
+    font-size: 68px;
+    line-height: 78px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 212px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+  }
+}
+@media (max-width: 480px) {
+  .games-shop {
+    height: 1469px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+    font-size: 23px;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 14px;
+  }
+  .title {
+    font-size: 70px;
+    line-height: 78px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 24.9px;
+    line-height: 32px;
+    letter-spacing: 1.9px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 222px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 37px;
+    line-height: 48px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 22.5px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+  }
+}
+@media (max-width: 450px) {
+  .games-shop {
+    height: 1580px;
+  }
+}
+@media (max-width: 440px) {
+  .games-shop {
+    height: 1599px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+    font-size: 23.5px;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 14px;
+  }
+  .title {
+    font-size: 71px;
+    line-height: 78px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 24.9px;
+    line-height: 32px;
+    letter-spacing: 1.9px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 242px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 36px;
+    line-height: 48px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 422px) {
+  .games-shop {
+    height: 1599px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+    font-size: 23.5px;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 14px;
+  }
+  .title {
+    font-size: 71px;
+    line-height: 78px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 24.9px;
+    line-height: 32px;
+    letter-spacing: 1.9px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 262px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 36px;
+    line-height: 48px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2.5px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 700px) {
+  .games-shop {
+    height: 1699px;
+  }
+}
+@media (max-width: 397px) {
+  .games-shop {
+    height: 1730px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+    font-size: 24.5px;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 6px;
+  }
+  .title {
+    font-size: 72px;
+    line-height: 79px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 25.5px;
+    line-height: 32px;
+    letter-spacing: 2.2px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 262px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 37px;
+    line-height: 48px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 24.8px;
+    line-height: 32px;
+    letter-spacing: 2.7px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 375px) {
+  .games-shop {
+    height: 1730px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+    font-size: 25.1px;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .title {
+    font-size: 72px;
+    line-height: 79px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 2.5px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 292px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 38px;
+    line-height: 49px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 25.8px;
+    line-height: 32px;
+    letter-spacing: 2.7px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 700px) {
+  .games-shop {
+    height: 1699px;
+  }
+}
+@media (max-width: 374px) {
+  .games-shop {
+    height: 1900px;
+  }
+}
+@media (max-width: 372px) {
+  .games-shop {
+    height: 1880px;
+  }
+}
+@media (max-width: 350px) {
+  .games-shop {
+    height: 1980px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+    font-size: 25.5px;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .title {
+    font-size: 73px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 3.2px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 312px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 39px;
+    line-height: 52px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 27.5px;
+    line-height: 34px;
+    letter-spacing: 2.7px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 341px) {
+  .games-shop {
+    height: 2010px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+    font-size: 25.5px;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: -3px;
+  }
+  .title {
+    font-size: 73px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 3.2px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 312px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 39px;
+    line-height: 52px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 8px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 27.5px;
+    line-height: 34px;
+    letter-spacing: 2.5px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 340px) {
+  .games-shop {
+    height: 2050px;
+  }
+  .games-shop__sport {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__sport p {
+    display: inline-block;
+    position: relative;
+    font-size: 25.5px;
+  }
+  .games-shop__sport img {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+  }
+  .title {
+    font-size: 73px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .text {
+    text-align: center;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2.7px;
+    color: rgba(223, 223, 223, 0.8);
+    display: flex;
+    justify-content: center;
+  }
+  .text p {
+    max-width: 667px;
+  }
+  .games-shop__content {
+    margin-top: 61px;
+  }
+  .games-shop__row {
+    display: flex;
+    justify-content: center;
+  }
+  .games-shop__column {
+    background-color: rgba(255, 255, 255, 0.15);
+    max-width: 586px;
+    max-height: 312px;
+    border-radius: 20px;
+    padding: 35px 32px 36px 80px;
+    margin-bottom: 32px;
+  }
+  .games-shop__info-title {
+    font-size: 39px;
+    line-height: 52px;
+    color: #fff;
+    position: relative;
+  }
+  .games-shop__info-title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/almaz.png") 0px 0px no-repeat;
+    position: absolute;
+    top: 12px;
+    left: -60px;
+  }
+  .games-shop__info-text {
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 27.5px;
+    line-height: 34px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+  }
+}
+.now-era {
+  width: 100%;
+  height: 810px;
+  background-color: #000;
+}
+
+.now-era__content {
+  padding-top: 174px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.now-era__title {
+  margin-top: 10px;
+}
+.now-era__title h2 {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.now-era__text p {
+  max-width: 770px;
+  text-align: left;
+  margin-bottom: 54px;
+}
+
+.now-era__btn {
+  padding: 21px 34px;
+  background-color: rgb(87, 184, 255);
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+}
+.now-era__btn a {
+  color: #fff;
+}
+
+.now-era__block-left {
+  max-width: 700px;
+}
+
+@media (max-width: 1000px) {
+  .now-era {
+    width: 100%;
+    height: 810px;
+    background-color: #000;
+  }
+  .now-era__content {
+    padding-top: 174px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .now-era__title {
+    margin-top: 10px;
+  }
+  .now-era__title h2 {
+    text-align: left;
+    text-transform: capitalize;
+  }
+  .now-era__text p {
+    max-width: 770px;
+    text-align: left;
+    margin-bottom: 54px;
+  }
+  .now-era__btn {
+    padding: 21px 34px;
+    background-color: rgb(87, 184, 255);
+    font-size: 18px;
+    display: inline-flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+  }
+  .now-era__btn a {
+    color: #fff;
+  }
+}
+@media (max-width: 910px) {
+  .now-era {
+    width: 100%;
+    height: 1480px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__content {
+    padding-top: 174px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .now-era__sport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    position: relative;
+  }
+  .now-era__sport:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/ie.png") 12px 7px no-repeat;
+  }
+  .now-era__title {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__title h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .now-era__text p {
+    text-align: center;
+    margin-bottom: 54px;
+  }
+  .now-era__btn {
+    padding: 21px 34px;
+    background-color: rgb(87, 184, 255);
+    font-size: 18px;
+    display: inline-flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+  }
+  .now-era__btn a {
+    color: #fff;
+  }
+  .now-era__controll-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 710px;
+  }
+  .now-era__btn {
+    padding: 31px 61px;
+    background-color: rgb(87, 184, 255);
+    font-size: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+  }
+  .now-era__btn a {
+    color: #fff;
+  }
+  .now-era__block-right {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+}
+@media (max-width: 700px) {
+  .now-era {
+    width: 100%;
+    height: 1570px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__content {
+    padding-top: 174px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .now-era__sport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    position: relative;
+    font-size: 23.5px;
+  }
+  .now-era__sport:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/ie.png") 12px 7px no-repeat;
+  }
+  .now-era__title {
+    margin-top: 10px;
+    font-size: 72px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__title h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .now-era__text p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 54px;
+  }
+  .now-era__btn {
+    padding: 21px 34px;
+    background-color: rgb(87, 184, 255);
+    font-size: 18px;
+    display: inline-flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+  }
+  .now-era__btn a {
+    color: #fff;
+  }
+  .now-era__controll-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 680px;
+  }
+  .now-era__btn {
+    padding: 34px 64px;
+    background-color: rgb(87, 184, 255);
+    font-size: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+  }
+  .now-era__btn a {
+    color: #fff;
+  }
+  .now-era__block-right {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .now-era__controll-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 710px;
+  }
+}
+@media (max-width: 580px) {
+  .now-era {
+    width: 100%;
+    height: 1650px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__content {
+    padding-top: 174px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .now-era__sport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    position: relative;
+    font-size: 23.5px;
+  }
+  .now-era__sport:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/ie.png") 12px 7px no-repeat;
+  }
+  .now-era__title {
+    margin-top: 10px;
+    font-size: 74px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__title h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .now-era__text p {
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 54px;
+  }
+  .now-era__controll-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 680px;
+  }
+  .now-era__btn {
+    padding: 36px 66px;
+    background-color: rgb(87, 184, 255);
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 590px;
+    margin-top: 30px;
+  }
+  .now-era__btn a {
+    color: #fff;
+  }
+  .now-era__block-right {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .now-era__controll-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 710px;
+  }
+}
+@media (max-width: 480px) {
+  .now-era {
+    width: 100%;
+    height: 1690px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__content {
+    padding-top: 174px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .now-era__sport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    position: relative;
+    font-size: 24.5px;
+  }
+  .now-era__sport:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/ie.png") 12px 7px no-repeat;
+  }
+  .now-era__title {
+    margin-top: 10px;
+    font-size: 76px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__title h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .now-era__text p {
+    font-size: 28px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin-bottom: 54px;
+    line-height: 34px;
+  }
+  .now-era__controll-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 680px;
+  }
+  .now-era__btn {
+    padding: 38px 68px;
+    background-color: rgb(87, 184, 255);
+    font-size: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 590px;
+    margin-top: 30px;
+  }
+  .now-era__btn a {
+    color: #fff;
+  }
+  .now-era__block-right {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .now-era__controll-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 710px;
+  }
+}
+@media (max-width: 380px) {
+  .now-era {
+    width: 100%;
+    height: 1790px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__content {
+    padding-top: 174px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .now-era__sport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    position: relative;
+    font-size: 26px;
+  }
+  .now-era__sport:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/ie.png") 12px 7px no-repeat;
+  }
+  .now-era__title {
+    margin-top: 10px;
+    font-size: 78px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .now-era__title h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .now-era__text p {
+    font-size: 30px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin-bottom: 54px;
+    line-height: 36px;
+  }
+  .now-era__controll-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 680px;
+  }
+  .now-era__btn {
+    padding: 42px 72px;
+    background-color: rgb(87, 184, 255);
+    font-size: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 590px;
+    margin-top: 30px;
+  }
+  .now-era__btn a {
+    color: #fff;
+  }
+  .now-era__block-right {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .now-era__controll-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 710px;
+  }
+}/*# sourceMappingURL=style.css.map */
